@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    word-break: break-all;
+    transition: 0.05s all;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background: #363543;
+    transition: 0s !important;
+}
+
+.menu,
+.menu-icons {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    color: #a9a9a9;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.logo,
+.menu-icons {
+    width: 15%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.menu {
+    width: 70%;
+}
+
+/* Hambuger menu icon */
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    height: 3px;
+    background-color: #000;
+    margin: 10px 0;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.bar1 {
+    width: 35px;
+}
+
+.bar2 {
+    width: 20px;
+}
+
+.bar1 {
+    width: 30px;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+
+/* bannan styling */
+
+.bannar {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: #363543;
+    position: relative;
+}
+
+.col {
+    color: #a9a9a9;
+}
+
+.col1 {
+    width: 30%;
+
+}
+
+.i-m {
+    font-size: 66px;
+    font-weight: 400;
+}
+.name{
+    color: #fff !important;
+    font-size: 60px;
+    font-weight: 800;
+    width: 70vw !important;
+    position: relative;
+    z-index: 99;
+    display: inline-block !important;
+}
+.divider{
+    background: #FFA500;
+    height: 20px;
+    width: 70px;
+    border-radius: 15px;
+}
+.content{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.col2 {
+    width: 40%;
+    align-content: end;
+}
+
+.col3 {
+    width: 30%;
+}
+.service{
+    font-size:23px ;
+    font-weight: 600;
+}
+.service-content{
+    font-size: 16px;
+    line-height: 20px;
+}
+.btn button{
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 132, 0);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+
+/* circle style */
+
+.circle {
+    background-color: #2D2D39;
+    height: 600px;
+    border-radius: 100%;
+}
+.porfoilio-image {
+    height: 700px;
+    background-image: url(images/My-image.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-x: -200px;
+    background-position-y: -300px;
+    margin-top: -700px;
+
+}
